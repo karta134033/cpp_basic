@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
   int age = 24;
-  int* ptr_age = &age;
+  int *ptr_age = &age;
   double gpa = 4.3;
   string name = "Neil";
 
