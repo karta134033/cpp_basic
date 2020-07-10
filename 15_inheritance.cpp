@@ -16,12 +16,17 @@ class ExecutiveChef : public Chef {  // 要加public 才可以取得 Chef的函�
   public:
     void manage() {
         cout << "The chef manage the resturant." << endl;
-      }
+    }
+
+    void make_steak() {
+      cout << "The chef make medium rare steak." << endl;
+    }
 };
 
 
 int main() {
   ExecutiveChef executive_chef;
+  executive_chef.make_chicken();
   executive_chef.make_steak();
   executive_chef.manage();
 
