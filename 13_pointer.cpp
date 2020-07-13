@@ -18,7 +18,7 @@ int main() {
   cout << "Address of age: " << &age << endl;
   cout << "Address of gpa: " << &gpa << endl;
 
-  *&age = gpa;
+  age = gpa;
   cout << "gpa: " << gpa << endl;  // 4.3
   cout << "age: " << age << endl;  // 4
   cout << "*ptr_age: " << *ptr_age << endl;  // 4
